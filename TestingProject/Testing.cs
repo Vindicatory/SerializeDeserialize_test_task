@@ -9,7 +9,7 @@ namespace TestingProject
     class Testing
     {
         static void Main(string[] args)
-        {
+       
             string ss = "(head, (l1, (l2, (tail, _, _), (r2, _, _)), _), (r1, _, _))";
             string s = "(tail, _, _)";
             s = s.Substring(1, s.Length - 1);
